@@ -43,6 +43,7 @@ public class cartclass2 {
 		xd.switchTo().frame(xd.findElement(By.xpath("//iframe[@title='All Packages']")));
 		Thread.sleep(3000);
 		xd.findElement(By.linkText("org.openqa.selenium.devtools")).click();
+		xd.close();
 		
 		
 		
